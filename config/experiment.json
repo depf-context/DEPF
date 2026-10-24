@@ -1,0 +1,78 @@
+{
+  "datasets": {
+    "FEVER": 400,
+    "HoVer": 384,
+    "WiCE": 193
+  },
+  "verifiers": {
+    "FEVER14B": {
+      "model": "Qwen/Qwen3-14B",
+      "revision": "8268fe3026cb304910457689366670e803a6fd56",
+      "classes": [
+        "SUPPORTS",
+        "REFUTES"
+      ],
+      "label_codes": [
+        "1",
+        "2"
+      ],
+      "batch_size": 1,
+      "dtype": "bfloat16"
+    },
+    "FEVER4B": {
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "f50518eb58dfc750271b273fc113bdfc16ec2280",
+      "classes": [
+        "SUPPORTS",
+        "REFUTES"
+      ],
+      "label_codes": [
+        "1",
+        "2"
+      ],
+      "batch_size": 1,
+      "dtype": "bfloat16"
+    },
+    "HoVer4B": {
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "f50518eb58dfc750271b273fc113bdfc16ec2280",
+      "classes": [
+        "SUPPORTED",
+        "NOT_SUPPORTED"
+      ],
+      "label_codes": [
+        "1",
+        "2"
+      ],
+      "batch_size": 1,
+      "dtype": "bfloat16"
+    },
+    "WiCE4B": {
+      "model": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "f50518eb58dfc750271b273fc113bdfc16ec2280",
+      "classes": [
+        "supported",
+        "partially_supported",
+        "not_supported"
+      ],
+      "label_codes": [
+        "1",
+        "2",
+        "3"
+      ],
+      "batch_size": 1,
+      "dtype": "bfloat16"
+    }
+  },
+  "parameters": {
+    "epsilon": 0.0001,
+    "tau": 1e-07,
+    "removal_fraction": 0.5,
+    "bootstrap_replicates": 20000
+  },
+  "selection": {
+    "decision": "full-context total variation",
+    "governance": "least claim relevance within admissible set, otherwise minimum-TV fallback",
+    "ties": "original candidate order"
+  }
+}

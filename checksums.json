@@ -1,0 +1,138 @@
+{
+  "data/frozen/fever400.jsonl": {
+    "sha256": "5d37b0f87a20f2ef58572cc4fe2d09d2bc6ee21edc64a37bde9e2e4b6c0ff29b",
+    "size": 1138264
+  },
+  "data/frozen/hover384.jsonl": {
+    "sha256": "d677dd9f0bab3fee93dc28fdf15d417867833bd842e709d09ea5ca3064b6a30a",
+    "size": 4004604
+  },
+  "data/frozen/wice193.jsonl": {
+    "sha256": "7eadd98d094dc235b015b9f34581af2d98ec66099de39a6d6e8044fb78d6a8ea",
+    "size": 1879774
+  },
+  "data/results/external_claims.csv.gz": {
+    "sha256": "28106bdcde573965e26dfb0870e239c38a657a8674b79ba640bc9ac086537f84",
+    "size": 11182
+  },
+  "data/results/fever14_claims.csv.gz": {
+    "sha256": "3d5e686fc3ec6076e9a119029f9998d2b3a5023c4a059e5594aff3e88bdf086d",
+    "size": 13815
+  },
+  "data/results/fever14_hover4_path_steps.csv.gz": {
+    "sha256": "8929cf0cb4a12be6710343eec578bb8331964d1cc6f26a15baabeb281bb52967",
+    "size": 1225144
+  },
+  "data/results/fever14_hover4_scorer_endpoints.csv.gz": {
+    "sha256": "063123079729cd67a0c519ae80024d127f182ab320d97521dffca3667e49e2f3",
+    "size": 645476
+  },
+  "data/results/fever14_rq2_actions.csv.gz": {
+    "sha256": "3267e8849f82cca48669948ad93c92e25dc0de0ad0fd6e6f01435a2060d9f757",
+    "size": 29379
+  },
+  "data/results/fever14_rq2_states.csv": {
+    "sha256": "f71ea5fb31dfd5572efd6f6784f43d7715e2e65b5fea9919ccc86d0ac6c342cf",
+    "size": 23510
+  },
+  "data/results/fever4_claims.csv.gz": {
+    "sha256": "ebbca5ce86bc5cab8775e41a6c5f8bc71e652ae4e1372bc653b70de866bd6482",
+    "size": 9211
+  },
+  "data/results/fever4_scorer_endpoints.csv.gz": {
+    "sha256": "c6594e4106f7c97ff7cf53cea2fdbe2d43beff04f3b889029c4ec51f228e5b5d",
+    "size": 207404
+  },
+  "data/results/figure4_claim29.json": {
+    "sha256": "0b7b45a50f3ffb1ea3ef29c3f95dd07b95991e53abac2661c1932b97575c11ac",
+    "size": 367
+  },
+  "data/results/hover4_claims.csv.gz": {
+    "sha256": "b6e3ef21e6d3d0b1888391150d2191ecf82be40e448b53e54bdae424806358ba",
+    "size": 14116
+  },
+  "data/results/hover4_rq2_actions.csv.gz": {
+    "sha256": "23c73c5e81603137484edb2280b9337e4c7c47731ac0c29d90aaca99d32bdf19",
+    "size": 73716
+  },
+  "data/results/hover4_rq2_states.csv": {
+    "sha256": "d36b735cfdc82876fe3d988e505e5492f958dbd1ab02292c5d3d171d912cfd2d",
+    "size": 25771
+  },
+  "data/results/label_stability.csv": {
+    "sha256": "423d1da423bb1347e2de5706c065c907bd6c953fc12865fea2f61d5e52b14120",
+    "size": 858
+  },
+  "data/results/threshold_contrasts.csv": {
+    "sha256": "fa833047122546aecc13d1e3306356b85a78941c354d852071ae728b18dc05f7",
+    "size": 3139
+  },
+  "data/results/token_cap_claims.csv.gz": {
+    "sha256": "f1d0ead23c19c51934c77314ab77278d786069a01fe29facd294b2b9a7b5c25e",
+    "size": 39920
+  },
+  "data/results/wice4_claims.csv.gz": {
+    "sha256": "e35239e98c697f77bdf6ea7679242deedc244185fde6cf1ec79f18577e45ce33",
+    "size": 7032
+  },
+  "data/results/wice_pool_sensitivity.csv.gz": {
+    "sha256": "2b3fdeb9c801f01cdf5b92ac3da14216c79921663107ef000218328a18154261",
+    "size": 19987
+  },
+  "data/scores/fever_bge.csv.gz": {
+    "sha256": "291ccc00b93416e9217082fff51a61488273de4b77a757b7d4e392ab24b72250",
+    "size": 56883
+  },
+  "data/scores/fever_bm25.csv.gz": {
+    "sha256": "fe2c6f1aae34d37ca92721b1af6f1d07f20a935a70645f3cd4b632e70269d4b5",
+    "size": 75099
+  },
+  "data/scores/fever_cross_encoder.csv.gz": {
+    "sha256": "121da6b364c0aacc7806ed58050932cc0440d22990072dbb654bdff29a830078",
+    "size": 84174
+  },
+  "data/scores/fever_e5.csv.gz": {
+    "sha256": "c5af2a9aaac45af7c77d93116630b0e8df709e894756824d99ecd55d50e47442",
+    "size": 83799
+  },
+  "data/scores/fever_low.jsonl": {
+    "sha256": "a6ef8e8d6d328f81a2b985a7aedd3b59b51aa40090c3f336431c35308758e5ad",
+    "size": 29896
+  },
+  "data/scores/fever_tfidf.csv.gz": {
+    "sha256": "4486f8aae74822a404b905f4347de4dd6556908026c04a8c044d24f8cb34b4ad",
+    "size": 76614
+  },
+  "data/scores/fever_xprovence.csv.gz": {
+    "sha256": "6a0b55f960571b5e9d779d007faf6257a42a56e853a9ee4d655402a094cf973a",
+    "size": 86098
+  },
+  "data/scores/hover_bge.csv.gz": {
+    "sha256": "0d4e6fdf32ce98c3f3272536b31497c00a4a037231da966255a69c7302f3d0d3",
+    "size": 118082
+  },
+  "data/scores/hover_bm25.csv.gz": {
+    "sha256": "993f9126499b74ba56a253b73fe226d8845c44b00fc429a897dd43fbb771e3ac",
+    "size": 149486
+  },
+  "data/scores/hover_cross_encoder.csv.gz": {
+    "sha256": "5925d3b1cb698cae6cecbca5fb0ed4e63c2b04229629486778cb162d4e2c09cf",
+    "size": 151293
+  },
+  "data/scores/hover_e5.csv.gz": {
+    "sha256": "1c4abe4f7803c46b484f6c0fb858e0946709305e2fe2e9cd0e73997f7b27dc4c",
+    "size": 148582
+  },
+  "data/scores/hover_tfidf.csv.gz": {
+    "sha256": "a17f98e7944d555e705ce025702807e875dd582c40fda2f964d1f494bbacf789",
+    "size": 151099
+  },
+  "data/scores/hover_xprovence.csv.gz": {
+    "sha256": "b87a86cb0a9c73225d75e71e9c436b2fff238205b6c3525436f09388e05abab9",
+    "size": 156979
+  },
+  "data/scores/wice_hover_low.jsonl": {
+    "sha256": "ba65bcfca497e77d08f51f12bfe99313ca0ab5e4e6dcc0531ac7c6df5a8ced32",
+    "size": 609741
+  }
+}
